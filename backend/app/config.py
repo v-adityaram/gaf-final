@@ -62,7 +62,11 @@ VOICE_CONFIGURED = bool(AZURE_OPENAI_ENDPOINT and AZURE_OPENAI_API_KEY and AZURE
 TURN_SHARED_SECRET = os.getenv("TURN_SHARED_SECRET", "")
 TURN_DOMAIN = os.getenv("TURN_DOMAIN", "")
 
+# Always-allowed local dev origins, plus whatever CORS_EXTRA_ORIGINS lists
+# (comma-separated) -- set that in the hosting platform's dashboard to the
+# deployed frontend's own origin (e.g. https://gaf-final.vercel.app) once
+# it exists; nothing here needs a code change to add a new deployment.
 CORS_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-]
+] + [origin.strip() for origin in os.getenv("CORS_EXTRA_ORIGINS", "").split(",") if origin.strip()]

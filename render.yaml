@@ -1,0 +1,49 @@
+# Render Blueprint for the backend -- https://render.com/docs/blueprint-spec
+#
+# One-time setup (Render's free web-service tier; spins down after 15 min
+# idle, cold-starts in ~30-50s on the next request -- fine for a demo):
+#   1. render.com -> New -> Blueprint -> connect this GitHub repo (works
+#      with a private repo once you authorize Render's GitHub App).
+#   2. Render reads this file and proposes the "gaf-final-backend" service.
+#   3. Before the first deploy, fill in the required env vars it prompts
+#      for (marked sync:false below) -- copy the values from your local
+#      .env, never commit them:
+#        FOUNDRY_PROJECT_ENDPOINT, FOUNDRY_API_KEY, GAF_MODEL
+#        (AZURE_OPENAI_* are optional -- voice stays disabled without them)
+#   4. After the frontend is deployed too (see vercel.json), come back to
+#      this service's Environment tab and set CORS_EXTRA_ORIGINS to the
+#      Vercel URL, e.g. https://gaf-final.vercel.app -- then redeploy.
+#   5. Your live API base is whatever Render assigns, e.g.
+#      https://gaf-final-backend.onrender.com -- use that as the Postman
+#      collection's `baseUrl` variable, and as VITE_API_BASE_URL on Vercel.
+
+services:
+  - type: web
+    name: gaf-final-backend
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: DEMO_MODE
+        value: "true"
+      - key: GAF_DATA_SOURCE
+        value: local
+      - key: GAF_MODEL
+        value: gpt-5-mini
+      - key: FOUNDRY_PROJECT_ENDPOINT
+        sync: false
+      - key: FOUNDRY_API_KEY
+        sync: false
+      - key: CORS_EXTRA_ORIGINS
+        value: ""
+      - key: AZURE_OPENAI_ENDPOINT
+        value: ""
+      - key: AZURE_OPENAI_API_KEY
+        value: ""
+      - key: AZURE_OPENAI_REALTIME_DEPLOYMENT
+        value: ""
+      - key: AZURE_OPENAI_TRANSCRIBE_DEPLOYMENT
+        value: ""

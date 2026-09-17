@@ -1,0 +1,301 @@
+{
+  "info": {
+    "name": "GAF Sales Assistant",
+    "_postman_id": "b4a1f4b0-7a6c-4d9e-9c2e-gaf-final-0001",
+    "description": "Every backend route for the GAF Sales Assistant prototype (backend/app/main.py). Set the `baseUrl` collection variable to your local server (http://localhost:8001) or your hosted Render URL. Data source is local (GAF_DATA_SOURCE=local) -- every response comes from data/*.json, no live Azure Function App required.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:8001" },
+    { "key": "orderSessionId", "value": "" },
+    { "key": "reviewId", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "item": [
+        { "name": "Health check", "request": { "method": "GET", "url": "{{baseUrl}}/api/health" } }
+      ]
+    },
+    {
+      "name": "Smart Order",
+      "item": [
+        {
+          "name": "Order chat (happy path, priced)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/order/chat",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"I need 12 squares of Timberline HDZ Charcoal for Sunshine Roofing Supply, deliver to Tampa next Tuesday.\",\n  \"history\": []\n}"
+            }
+          },
+          "event": [{ "listen": "test", "script": { "exec": ["if (pm.response.code === 200) { const b = pm.response.json(); if (b.order_session_id) pm.collectionVariables.set('orderSessionId', b.order_session_id); }"] } }]
+        },
+        {
+          "name": "Order chat (bulk, multi-line + WindProven set)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/order/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"message\": \"Quote 65 squares of Timberline HDZ Charcoal for Sunshine Roofing Supply with the full WindProven add-on set, Tampa, Oct 1.\",\n  \"history\": []\n}" }
+          }
+        },
+        {
+          "name": "Order chat (roof estimate -- no squares given)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/order/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"message\": \"Peachtree Contractors has a two-storey house, about 4,000 sq ft, 6/12 pitch, wants Timberline HDZ Slate. How much should they order?\",\n  \"history\": []\n}" }
+          }
+        },
+        {
+          "name": "Order chat (credit hold -- blocked)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/order/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"message\": \"Lauderdale Roofing Co needs 60 squares of Timberline HDZ Slate in Fort Lauderdale tomorrow.\",\n  \"history\": []\n}" }
+          }
+        },
+        {
+          "name": "Order recheck (editable form, structured fields)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/order/recheck",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"customer_id\": \"ACC-1001\",\n  \"lines\": [\n    { \"sku\": \"TL-HDZ-01\", \"quantity\": 12, \"unit\": \"squares\", \"included\": true, \"source\": \"customer\" }\n  ],\n  \"include_add_ons\": true,\n  \"delivery_city\": \"Tampa\",\n  \"delivery_date\": \"next Tuesday\",\n  \"history\": []\n}"
+            }
+          }
+        },
+        {
+          "name": "Order confirm",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/order/confirm",
+            "body": { "mode": "raw", "raw": "{\n  \"order_session_id\": \"{{orderSessionId}}\",\n  \"duplicate_acknowledged\": false\n}" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Product & Warranty",
+      "item": [
+        {
+          "name": "Warranty chat (auto-answer, high confidence)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/warranty/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"question\": \"What do I need on a Timberline HDZ order in Naples for the WindProven warranty, and is HDZ approved for Florida?\",\n  \"history\": []\n}" }
+          }
+        },
+        {
+          "name": "Warranty chat (low confidence -> human review)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/warranty/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"question\": \"Is HDZ okay for coastal Florida if we mix in another manufacturer's ridge cap?\",\n  \"history\": []\n}" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": ["if (pm.response.code === 200) { const b = pm.response.json(); if (b.review && b.review.review_id) pm.collectionVariables.set('reviewId', b.review.review_id); }"] } }]
+        },
+        {
+          "name": "Warranty chat (urgent escalation -- leak)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/warranty/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"question\": \"A customer's HDZ roof from May is leaking after Tuesday's storm, water on the ceiling. What now?\",\n  \"history\": []\n}" }
+          }
+        },
+        {
+          "name": "Warranty chat (no approved source)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/warranty/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"question\": \"Exactly how many years does the StainGuard algae coverage last?\",\n  \"history\": []\n}" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Human Review Queue",
+      "item": [
+        { "name": "List reviews (pending)", "request": { "method": "GET", "url": "{{baseUrl}}/api/reviews?status=pending" } },
+        { "name": "List reviews (all)", "request": { "method": "GET", "url": "{{baseUrl}}/api/reviews" } },
+        {
+          "name": "Resolve a review (approve)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/reviews/{{reviewId}}/resolve",
+            "description": "Run 'Warranty chat (low confidence -> human review)' first, copy its `review.review_id` (looks like RV-XXXXXXXX) into the `reviewId` collection variable, then send this.",
+            "body": { "mode": "raw", "raw": "{\n  \"decision\": \"approve\",\n  \"final_answer\": null,\n  \"reviewer\": \"Sales Manager\"\n}" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Coordinator (Assistant)",
+      "item": [
+        {
+          "name": "Assistant chat -> routes to Order",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/assistant/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"message\": \"I need 12 squares of Timberline HDZ Charcoal for Sunshine Roofing Supply, deliver to Tampa next Tuesday.\",\n  \"history\": []\n}" }
+          }
+        },
+        {
+          "name": "Assistant chat -> routes to Warranty",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/assistant/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"message\": \"Is Timberline HDZ approved for Florida?\",\n  \"history\": []\n}" }
+          }
+        },
+        {
+          "name": "Assistant chat -> routes to Contractor Finder",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/assistant/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"message\": \"Find GAF-certified roofers near 34102, ideally Master Elite.\",\n  \"history\": []\n}" }
+          }
+        },
+        {
+          "name": "Assistant chat -> deterministic override to General (order lookup)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/assistant/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"message\": \"Show me ORD-77012\",\n  \"history\": []\n}" }
+          }
+        },
+        {
+          "name": "Assistant chat -> General (price comparison)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/assistant/chat",
+            "body": { "mode": "raw", "raw": "{\n  \"message\": \"What's the difference between Timberline HDZ and UHDZ, and what does each cost per square?\",\n  \"history\": []\n}" }
+          }
+        },
+        {
+          "name": "Draft customer email",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/assistant/draft-email",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"rep_id\": \"REP-001\",\n  \"history\": [\n    { \"role\": \"user\", \"text\": \"I need 12 squares of Timberline HDZ Charcoal for Sunshine Roofing Supply, deliver to Tampa next Tuesday.\" },\n    { \"role\": \"assistant\", \"text\": \"Order prepared: 12 squares Timberline HDZ Charcoal, Tampa, ready for review.\" }\n  ]\n}"
+            }
+          }
+        },
+        {
+          "name": "Photo intake (roof photo -> warranty question)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/assistant/photo",
+            "body": { "mode": "raw", "raw": "{\n  \"image_data_url\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=\",\n  \"note\": \"Customer sent this from the job site\",\n  \"location\": \"Naples, FL\"\n}" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Contractors",
+      "item": [
+        { "name": "Contractors near a real-data ZIP (Naples)", "request": { "method": "GET", "url": "{{baseUrl}}/api/contractors?zip=34102&limit=10" } },
+        { "name": "Contractors near a synthetic ZIP (Marietta)", "request": { "method": "GET", "url": "{{baseUrl}}/api/contractors?zip=30061&min_tier=master_elite" } },
+        { "name": "Contractors by city", "request": { "method": "GET", "url": "{{baseUrl}}/api/contractors?city=Orlando&radius=25&limit=10" } }
+      ]
+    },
+    {
+      "name": "Sales Reps",
+      "item": [
+        { "name": "List reps", "request": { "method": "GET", "url": "{{baseUrl}}/api/reps" } },
+        { "name": "Rep dashboard", "request": { "method": "GET", "url": "{{baseUrl}}/api/reps/REP-001/dashboard" } }
+      ]
+    },
+    {
+      "name": "Email Agent",
+      "item": [
+        { "name": "Inbox for a rep", "request": { "method": "GET", "url": "{{baseUrl}}/api/inbox?rep_id=REP-001" } },
+        {
+          "name": "Email intake (extract + run through Coordinator)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/email/intake",
+            "body": { "mode": "raw", "raw": "{\n  \"email_ids\": [\"EML-001\"],\n  \"history\": []\n}" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Demo & Catalog",
+      "item": [
+        { "name": "Demo use cases", "request": { "method": "GET", "url": "{{baseUrl}}/api/demo/use-cases" } },
+        { "name": "Catalog products", "request": { "method": "GET", "url": "{{baseUrl}}/api/catalog/products" } },
+        { "name": "Catalog products (filter by family)", "request": { "method": "GET", "url": "{{baseUrl}}/api/catalog/products?family=Timberline HDZ" } },
+        { "name": "Active discounts today", "request": { "method": "GET", "url": "{{baseUrl}}/api/catalog/discounts" } }
+      ]
+    },
+    {
+      "name": "Feedback",
+      "item": [
+        {
+          "name": "Send feedback",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/feedback",
+            "body": { "mode": "raw", "raw": "{\n  \"rating\": \"up\",\n  \"route\": \"warranty\",\n  \"status\": \"answered\",\n  \"user_message\": \"Is Timberline HDZ approved for Florida?\",\n  \"assistant_message\": \"Yes, FL-16254.3.\",\n  \"comment\": null\n}" }
+          }
+        },
+        { "name": "Feedback summary", "request": { "method": "GET", "url": "{{baseUrl}}/api/feedback/summary" } }
+      ]
+    },
+    {
+      "name": "Metrics & Order History",
+      "item": [
+        { "name": "Metrics summary", "request": { "method": "GET", "url": "{{baseUrl}}/api/metrics/summary" } },
+        { "name": "AI request history", "request": { "method": "GET", "url": "{{baseUrl}}/api/metrics/requests?limit=50" } },
+        { "name": "Order history", "request": { "method": "GET", "url": "{{baseUrl}}/api/metrics/orders?limit=50" } },
+        { "name": "Confirmed orders ledger", "request": { "method": "GET", "url": "{{baseUrl}}/api/orders/confirmed?limit=50" } }
+      ]
+    },
+    {
+      "name": "Voice",
+      "item": [
+        { "name": "Mint realtime voice session", "request": { "method": "POST", "url": "{{baseUrl}}/api/voice/session" } },
+        {
+          "name": "Voice tool call (handle_customer_request)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/api/voice/tool",
+            "body": { "mode": "raw", "raw": "{\n  \"function_name\": \"handle_customer_request\",\n  \"message\": \"I need 12 squares of Timberline HDZ Charcoal for Sunshine Roofing Supply, deliver to Tampa next Tuesday.\"\n}" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "item": [
+        { "name": "Reset in-memory order sessions", "request": { "method": "POST", "url": "{{baseUrl}}/api/session/reset" } }
+      ]
+    }
+  ]
+}

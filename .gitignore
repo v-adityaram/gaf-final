@@ -25,3 +25,5 @@ __pycache__/
 backend/.tmp/
 backend.pid
 *.log
+data/metrics/*.jsonl
+data/orders/confirmed_orders.json

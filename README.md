@@ -89,6 +89,19 @@ GET  /api/metrics/*  /api/orders/confirmed
 cd backend && pytest        # 160 tests, fully offline (LLM and HTTP mocked)
 ```
 
+## Postman
+
+`postman/GAF_Sales_Assistant.postman_collection.json` covers every backend route (order, warranty,
+Coordinator, contractors, reps, inbox/email agent, review queue, metrics, feedback, voice), with
+realistic example bodies and a `baseUrl` collection variable (defaults to `http://localhost:8001`
+-- point it at a hosted backend instead once you have one). Import it directly into Postman, or
+run it headlessly with `npx newman run postman/GAF_Sales_Assistant.postman_collection.json`.
+
+## Hosting a live demo for free
+
+See [HOSTING.md](HOSTING.md) -- Render (backend) + Vercel (frontend), both deploy straight from
+this private repo and auto-redeploy on every push.
+
 ## Safety behaviours
 
 - An order is never submitted by the model -- `POST /api/order/confirm` is the human gate and a
