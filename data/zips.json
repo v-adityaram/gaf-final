@@ -1,0 +1,263 @@
+[
+  {
+    "zip": "33602",
+    "city": "Tampa",
+    "state": "FL",
+    "county": "Hillsborough",
+    "region_id": "FL-HIL",
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  },
+  {
+    "zip": "33607",
+    "city": "Tampa",
+    "state": "FL",
+    "county": "Hillsborough",
+    "region_id": "FL-HIL",
+    "latitude": 27.9625,
+    "longitude": -82.506
+  },
+  {
+    "zip": "34102",
+    "city": "Naples",
+    "state": "FL",
+    "county": "Collier",
+    "region_id": "FL-COL",
+    "latitude": 26.142,
+    "longitude": -81.7948
+  },
+  {
+    "zip": "34103",
+    "city": "Naples",
+    "state": "FL",
+    "county": "Collier",
+    "region_id": "FL-COL",
+    "latitude": 26.1912,
+    "longitude": -81.804
+  },
+  {
+    "zip": "33131",
+    "city": "Miami",
+    "state": "FL",
+    "county": "Miami-Dade",
+    "region_id": "FL-MIA",
+    "latitude": 25.765,
+    "longitude": -80.1936
+  },
+  {
+    "zip": "33130",
+    "city": "Miami",
+    "state": "FL",
+    "county": "Miami-Dade",
+    "region_id": "FL-MIA",
+    "latitude": 25.7663,
+    "longitude": -80.203
+  },
+  {
+    "zip": "33301",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "county": "Broward",
+    "region_id": "FL-BRO",
+    "latitude": 26.1224,
+    "longitude": -80.1373
+  },
+  {
+    "zip": "33304",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "county": "Broward",
+    "region_id": "FL-BRO",
+    "latitude": 26.14,
+    "longitude": -80.12
+  },
+  {
+    "zip": "32202",
+    "city": "Jacksonville",
+    "state": "FL",
+    "county": "Duval",
+    "region_id": "FL-DUV",
+    "latitude": 30.326,
+    "longitude": -81.6559
+  },
+  {
+    "zip": "32204",
+    "city": "Jacksonville",
+    "state": "FL",
+    "county": "Duval",
+    "region_id": "FL-DUV",
+    "latitude": 30.317,
+    "longitude": -81.681
+  },
+  {
+    "zip": "32801",
+    "city": "Orlando",
+    "state": "FL",
+    "county": "Orange",
+    "region_id": "FL-ORA",
+    "latitude": 28.5383,
+    "longitude": -81.3792
+  },
+  {
+    "zip": "32803",
+    "city": "Orlando",
+    "state": "FL",
+    "county": "Orange",
+    "region_id": "FL-ORA",
+    "latitude": 28.556,
+    "longitude": -81.351
+  },
+  {
+    "zip": "33401",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "county": "Palm Beach",
+    "region_id": "FL-PBC",
+    "latitude": 26.7153,
+    "longitude": -80.0534
+  },
+  {
+    "zip": "32501",
+    "city": "Pensacola",
+    "state": "FL",
+    "county": "Escambia",
+    "region_id": "FL-ESC",
+    "latitude": 30.4213,
+    "longitude": -87.2169
+  },
+  {
+    "zip": "30303",
+    "city": "Atlanta",
+    "state": "GA",
+    "county": "Fulton",
+    "region_id": "GA-FUL",
+    "latitude": 33.749,
+    "longitude": -84.388
+  },
+  {
+    "zip": "30061",
+    "city": "Marietta",
+    "state": "GA",
+    "county": "Cobb",
+    "region_id": "GA-COB",
+    "latitude": 33.9526,
+    "longitude": -84.5499
+  },
+  {
+    "zip": "31401",
+    "city": "Savannah",
+    "state": "GA",
+    "county": "Chatham",
+    "region_id": "GA-CHA",
+    "latitude": 32.0809,
+    "longitude": -81.0912
+  },
+  {
+    "zip": "75201",
+    "city": "Dallas",
+    "state": "TX",
+    "county": "Dallas",
+    "region_id": "TX-DAL",
+    "latitude": 32.7767,
+    "longitude": -96.797
+  },
+  {
+    "zip": "77002",
+    "city": "Houston",
+    "state": "TX",
+    "county": "Harris",
+    "region_id": "TX-HAR",
+    "latitude": 29.7604,
+    "longitude": -95.3698
+  },
+  {
+    "zip": "28202",
+    "city": "Charlotte",
+    "state": "NC",
+    "county": "Mecklenburg",
+    "region_id": "NC-MEC",
+    "latitude": 35.2271,
+    "longitude": -80.8431
+  },
+  {
+    "zip": "07102",
+    "city": "Newark",
+    "state": "NJ",
+    "county": "Essex",
+    "region_id": "NJ-ESS",
+    "latitude": 40.7357,
+    "longitude": -74.1724
+  },
+  {
+    "zip": "60606",
+    "city": "Chicago",
+    "state": "IL",
+    "county": "Cook",
+    "region_id": "IL-COO",
+    "latitude": 41.8832,
+    "longitude": -87.6324
+  },
+  {
+    "zip": "85003",
+    "city": "Phoenix",
+    "state": "AZ",
+    "county": "Maricopa",
+    "region_id": "AZ-MAR",
+    "latitude": 33.4519,
+    "longitude": -112.0757
+  },
+  {
+    "zip": "80202",
+    "city": "Denver",
+    "state": "CO",
+    "county": "Denver",
+    "region_id": "CO-DEN",
+    "latitude": 39.7508,
+    "longitude": -104.9963
+  },
+  {
+    "zip": "98101",
+    "city": "Seattle",
+    "state": "WA",
+    "county": "King",
+    "region_id": "WA-KIN",
+    "latitude": 47.6101,
+    "longitude": -122.3344
+  },
+  {
+    "zip": "90017",
+    "city": "Los Angeles",
+    "state": "CA",
+    "county": "Los Angeles",
+    "region_id": "CA-LOS",
+    "latitude": 34.0511,
+    "longitude": -118.2624
+  },
+  {
+    "zip": "43215",
+    "city": "Columbus",
+    "state": "OH",
+    "county": "Franklin",
+    "region_id": "OH-FRA",
+    "latitude": 39.967,
+    "longitude": -83.0037
+  },
+  {
+    "zip": "19103",
+    "city": "Philadelphia",
+    "state": "PA",
+    "county": "Philadelphia",
+    "region_id": "PA-PHI",
+    "latitude": 39.9526,
+    "longitude": -75.1732
+  },
+  {
+    "zip": "37203",
+    "city": "Nashville",
+    "state": "TN",
+    "county": "Davidson",
+    "region_id": "TN-DAV",
+    "latitude": 36.15,
+    "longitude": -86.79
+  }
+]

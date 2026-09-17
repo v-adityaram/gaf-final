@@ -1,0 +1,62 @@
+[
+  {
+    "warehouse_id": "DC-FL-TAM",
+    "name": "Tampa DC",
+    "city": "Tampa",
+    "state": "FL",
+    "latitude": 27.95,
+    "longitude": -82.46,
+    "daily_order_capacity": 150,
+    "storage_capacity_pallets": 2500
+  },
+  {
+    "warehouse_id": "DC-FL-MIA",
+    "name": "Miami DC",
+    "city": "Miami",
+    "state": "FL",
+    "latitude": 25.76,
+    "longitude": -80.19,
+    "daily_order_capacity": 125,
+    "storage_capacity_pallets": 2100
+  },
+  {
+    "warehouse_id": "DC-GA-ATL",
+    "name": "Atlanta DC",
+    "city": "Atlanta",
+    "state": "GA",
+    "latitude": 33.75,
+    "longitude": -84.39,
+    "daily_order_capacity": 180,
+    "storage_capacity_pallets": 3300
+  },
+  {
+    "warehouse_id": "DC-TX-DAL",
+    "name": "Dallas DC",
+    "city": "Dallas",
+    "state": "TX",
+    "latitude": 32.78,
+    "longitude": -96.8,
+    "daily_order_capacity": 165,
+    "storage_capacity_pallets": 3000
+  },
+  {
+    "warehouse_id": "DC-NJ-NEW",
+    "name": "Newark DC",
+    "city": "Newark",
+    "state": "NJ",
+    "latitude": 40.74,
+    "longitude": -74.17,
+    "daily_order_capacity": 140,
+    "storage_capacity_pallets": 2600
+  },
+  {
+    "warehouse_id": "DC-NC-CHA",
+    "name": "Charlotte DC",
+    "city": "Charlotte",
+    "state": "NC",
+    "latitude": 35.23,
+    "longitude": -80.84,
+    "daily_order_capacity": 155,
+    "storage_capacity_pallets": 2800
+  }
+]

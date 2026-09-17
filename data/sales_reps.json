@@ -1,0 +1,106 @@
+[
+  {
+    "rep_id": "REP-001",
+    "name": "Jordan Reyes",
+    "initials": "JR",
+    "title": "Territory Sales Manager",
+    "email": "jordan.reyes@example-roofing.demo",
+    "phone": "(813) 555-0142",
+    "territory": "Florida West & North",
+    "states": [
+      "FL"
+    ],
+    "cities": [
+      "Tampa",
+      "Naples",
+      "Orlando",
+      "Jacksonville"
+    ],
+    "commission_rate": 0.03,
+    "quota_usd": 450000,
+    "accounts": [
+      "ACC-1001",
+      "ACC-1002",
+      "ACC-1005",
+      "ACC-1006",
+      "ACC-1013",
+      "ACC-1014",
+      "ACC-1017",
+      "ACC-1018"
+    ]
+  },
+  {
+    "rep_id": "REP-002",
+    "name": "Maya Chen",
+    "initials": "MC",
+    "title": "Territory Sales Manager",
+    "email": "maya.chen@example-roofing.demo",
+    "phone": "(305) 555-0177",
+    "territory": "Florida South (HVHZ)",
+    "states": [
+      "FL"
+    ],
+    "cities": [
+      "Miami",
+      "Fort Lauderdale"
+    ],
+    "commission_rate": 0.03,
+    "quota_usd": 380000,
+    "accounts": [
+      "ACC-1003",
+      "ACC-1004",
+      "ACC-1015",
+      "ACC-1016"
+    ]
+  },
+  {
+    "rep_id": "REP-003",
+    "name": "Derek Okafor",
+    "initials": "DO",
+    "title": "Regional Sales Executive",
+    "email": "derek.okafor@example-roofing.demo",
+    "phone": "(404) 555-0119",
+    "territory": "Southeast & Northeast",
+    "states": [
+      "GA",
+      "NC",
+      "NJ"
+    ],
+    "cities": [
+      "Atlanta",
+      "Savannah",
+      "Charlotte",
+      "Newark"
+    ],
+    "commission_rate": 0.035,
+    "quota_usd": 420000,
+    "accounts": [
+      "ACC-1007",
+      "ACC-1008",
+      "ACC-1011",
+      "ACC-1012"
+    ]
+  },
+  {
+    "rep_id": "REP-004",
+    "name": "Sofia Alvarez",
+    "initials": "SA",
+    "title": "Territory Sales Manager",
+    "email": "sofia.alvarez@example-roofing.demo",
+    "phone": "(214) 555-0163",
+    "territory": "Texas",
+    "states": [
+      "TX"
+    ],
+    "cities": [
+      "Dallas",
+      "Houston"
+    ],
+    "commission_rate": 0.03,
+    "quota_usd": 300000,
+    "accounts": [
+      "ACC-1009",
+      "ACC-1010"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "product": "Timberline HDZ",
+    "sku_family": "TL-HDZ",
+    "region": "Florida",
+    "approval_type": "Florida Product Approval",
+    "approval_number": "FL-16254.3",
+    "contract_field": "floridaApproval",
+    "status": "SYNTHETIC DEMO DATA - Active",
+    "effective_date": "2023-01-01",
+    "expiration_date": "2027-12-31",
+    "notes": null
+  },
+  {
+    "product": "Timberline HDZ",
+    "sku_family": "TL-HDZ",
+    "region": "Miami-Dade / Broward (HVHZ)",
+    "approval_type": "Miami-Dade NOA",
+    "approval_number": "NOA 22-0518.09",
+    "contract_field": "miamiDadeNoa",
+    "status": "SYNTHETIC DEMO DATA - Active",
+    "effective_date": "2023-01-01",
+    "expiration_date": "2027-12-31",
+    "notes": null
+  },
+  {
+    "product": "Timberline HDZ",
+    "sku_family": "TL-HDZ",
+    "region": "General / Non-HVHZ",
+    "approval_type": "Standard wind tier",
+    "approval_number": "Up to 130 mph",
+    "contract_field": "standardWindTier",
+    "status": "SYNTHETIC DEMO DATA - Active",
+    "effective_date": "2023-01-01",
+    "expiration_date": "2027-12-31",
+    "notes": null
+  },
+  {
+    "product": "Timberline HDZ",
+    "sku_family": "TL-HDZ",
+    "region": "General / Non-HVHZ",
+    "approval_type": "WindProven wind tier",
+    "approval_number": "No maximum wind speed (system required)",
+    "contract_field": "windProvenTier",
+    "status": "SYNTHETIC DEMO DATA - Active",
+    "effective_date": "2023-01-01",
+    "expiration_date": "2027-12-31",
+    "notes": null
+  },
+  {
+    "product": "Timberline UHDZ",
+    "sku_family": "TL-UHDZ",
+    "region": "Florida",
+    "approval_type": "Florida Product Approval",
+    "approval_number": "FL-18820.1",
+    "contract_field": "floridaApproval",
+    "status": "SYNTHETIC DEMO DATA - Active",
+    "effective_date": "2025-01-01",
+    "expiration_date": "2028-01-01",
+    "notes": null
+  },
+  {
+    "product": "Timberline UHDZ",
+    "sku_family": "TL-UHDZ",
+    "region": "Miami-Dade / Broward (HVHZ)",
+    "approval_type": "Miami-Dade NOA",
+    "approval_number": "NOA 23-0711.04",
+    "contract_field": "miamiDadeNoa",
+    "status": "SYNTHETIC DEMO DATA - Active",
+    "effective_date": "2025-01-01",
+    "expiration_date": "2028-01-01",
+    "notes": null
+  },
+  {
+    "product": "Timberline UHDZ",
+    "sku_family": "TL-UHDZ",
+    "region": "General / Non-HVHZ",
+    "approval_type": "Standard wind tier",
+    "approval_number": "Up to 150 mph",
+    "contract_field": "standardWindTier",
+    "status": "SYNTHETIC DEMO DATA - Active",
+    "effective_date": "2025-01-01",
+    "expiration_date": "2028-01-01",
+    "notes": null
+  },
+  {
+    "product": "Timberline UHDZ",
+    "sku_family": "TL-UHDZ",
+    "region": "General / Non-HVHZ",
+    "approval_type": "WindProven wind tier",
+    "approval_number": "No maximum wind speed (system required)",
+    "contract_field": "windProvenTier",
+    "status": "SYNTHETIC DEMO DATA - Active",
+    "effective_date": "2025-01-01",
+    "expiration_date": "2028-01-01",
+    "notes": null
+  }
+]

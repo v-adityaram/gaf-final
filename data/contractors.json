@@ -1,0 +1,4837 @@
+[
+  {
+    "contractor_id": "CTR-001",
+    "name": "TrueLine Roofing Co",
+    "city": "Miami",
+    "state": "FL",
+    "zip": "33131",
+    "latitude": 25.7049,
+    "longitude": -80.3868,
+    "phone": "(305) 555-8322",
+    "rating": 4.6,
+    "review_count": 1222,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": 3,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-002",
+    "name": "Skyline Roofing & Restoration",
+    "city": "Miami",
+    "state": "FL",
+    "zip": "33131",
+    "latitude": 25.6854,
+    "longitude": -80.1954,
+    "phone": "(305) 555-5344",
+    "rating": 4.8,
+    "review_count": 693,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "FORTIFIED Roof"
+    ],
+    "years_certified": 8,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-003",
+    "name": "Granite Peak Roofing & Restoration",
+    "city": "Miami",
+    "state": "FL",
+    "zip": "33131",
+    "latitude": 25.876,
+    "longitude": -80.207,
+    "phone": "(305) 555-2262",
+    "rating": 4.5,
+    "review_count": 676,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": 12,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-004",
+    "name": "Crestview Roof & Gutter",
+    "city": "Miami",
+    "state": "FL",
+    "zip": "33131",
+    "latitude": 25.6451,
+    "longitude": -80.1893,
+    "phone": "(305) 555-8534",
+    "rating": 4.5,
+    "review_count": 1528,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite"
+    ],
+    "specialties": [
+      "Storm Restoration",
+      "Solar"
+    ],
+    "years_certified": 14,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-005",
+    "name": "Seabreeze Roofing",
+    "city": "Miami",
+    "state": "FL",
+    "zip": "33131",
+    "latitude": 25.6212,
+    "longitude": -80.1216,
+    "phone": "(305) 555-2817",
+    "rating": 4.9,
+    "review_count": 1513,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [],
+    "years_certified": 20,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-006",
+    "name": "Seabreeze Roof Systems",
+    "city": "Miami",
+    "state": "FL",
+    "zip": "33131",
+    "latitude": 25.9412,
+    "longitude": -80.0012,
+    "phone": "(305) 555-4060",
+    "rating": 4.7,
+    "review_count": 1285,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite"
+    ],
+    "specialties": [],
+    "years_certified": 9,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-007",
+    "name": "Granite Peak Roofing & Exteriors",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "zip": "33401",
+    "latitude": 26.6215,
+    "longitude": -79.8995,
+    "phone": "(561) 555-7162",
+    "rating": 4.6,
+    "review_count": 1186,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Tile"
+    ],
+    "years_certified": 11,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-008",
+    "name": "Clearwater Roofing & Restoration",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "zip": "33401",
+    "latitude": 26.6038,
+    "longitude": -80.2183,
+    "phone": "(561) 555-7309",
+    "rating": 4.8,
+    "review_count": 1761,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [],
+    "years_certified": 13,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-009",
+    "name": "Gulfstream Roofing",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "zip": "33401",
+    "latitude": 26.6505,
+    "longitude": -80.1731,
+    "phone": "(561) 555-5888",
+    "rating": 4.7,
+    "review_count": 507,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "FORTIFIED Roof"
+    ],
+    "years_certified": 9,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-010",
+    "name": "Red Cedar Roofing & Restoration",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "zip": "33401",
+    "latitude": 26.6081,
+    "longitude": -80.05,
+    "phone": "(561) 555-5696",
+    "rating": 4.9,
+    "review_count": 1645,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [],
+    "years_certified": 8,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-011",
+    "name": "Granite Peak Roof Systems",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "zip": "33401",
+    "latitude": 26.7357,
+    "longitude": -80.162,
+    "phone": "(561) 555-2444",
+    "rating": 4.4,
+    "review_count": 1006,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Solar",
+      "Storm Restoration"
+    ],
+    "years_certified": 15,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-012",
+    "name": "Seabreeze Roofing Co",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "zip": "33401",
+    "latitude": 26.8923,
+    "longitude": -79.9494,
+    "phone": "(561) 555-9630",
+    "rating": 4.6,
+    "review_count": 1859,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Tile"
+    ],
+    "years_certified": 15,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-013",
+    "name": "Coastal Peak Roof Works",
+    "city": "Pensacola",
+    "state": "FL",
+    "zip": "32501",
+    "latitude": 30.5404,
+    "longitude": -87.0732,
+    "phone": "(850) 555-9983",
+    "rating": 4.5,
+    "review_count": 958,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Tile",
+      "Metal"
+    ],
+    "years_certified": 20,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-014",
+    "name": "Summit Ridge Roof Works",
+    "city": "Pensacola",
+    "state": "FL",
+    "zip": "32501",
+    "latitude": 30.2825,
+    "longitude": -87.3155,
+    "phone": "(850) 555-8362",
+    "rating": 4.8,
+    "review_count": 378,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Metal",
+      "FORTIFIED Roof"
+    ],
+    "years_certified": 4,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-015",
+    "name": "Atlas Roofing Co",
+    "city": "Pensacola",
+    "state": "FL",
+    "zip": "32501",
+    "latitude": 30.4808,
+    "longitude": -87.1211,
+    "phone": "(850) 555-7798",
+    "rating": 4.7,
+    "review_count": 443,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Tile",
+      "Storm Restoration"
+    ],
+    "years_certified": 10,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-016",
+    "name": "Meridian Roof Works",
+    "city": "Pensacola",
+    "state": "FL",
+    "zip": "32501",
+    "latitude": 30.5583,
+    "longitude": -87.3165,
+    "phone": "(850) 555-6093",
+    "rating": 4.5,
+    "review_count": 199,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "FORTIFIED Roof"
+    ],
+    "years_certified": 20,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-017",
+    "name": "Red Cedar Roofing Co",
+    "city": "Pensacola",
+    "state": "FL",
+    "zip": "32501",
+    "latitude": 30.3297,
+    "longitude": -87.366,
+    "phone": "(850) 555-9345",
+    "rating": 4.9,
+    "review_count": 1673,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite"
+    ],
+    "specialties": [
+      "FORTIFIED Roof",
+      "Storm Restoration"
+    ],
+    "years_certified": 15,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-018",
+    "name": "Magnolia Roofing",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30303",
+    "latitude": 33.5783,
+    "longitude": -84.5652,
+    "phone": "(404) 555-4689",
+    "rating": 4.7,
+    "review_count": 1733,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Tile"
+    ],
+    "years_certified": 3,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-019",
+    "name": "Seabreeze Roofing Specialists",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30303",
+    "latitude": 33.8127,
+    "longitude": -84.3518,
+    "phone": "(404) 555-9161",
+    "rating": 4.7,
+    "review_count": 1761,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Commercial Low-Slope",
+      "Storm Restoration"
+    ],
+    "years_certified": 15,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-020",
+    "name": "Coastal Peak Roofing",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30303",
+    "latitude": 33.8528,
+    "longitude": -84.2385,
+    "phone": "(404) 555-5887",
+    "rating": 4.6,
+    "review_count": 1091,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [],
+    "years_certified": 9,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-021",
+    "name": "Seabreeze Roofing Group",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30303",
+    "latitude": 33.6003,
+    "longitude": -84.3029,
+    "phone": "(404) 555-8907",
+    "rating": 4.3,
+    "review_count": 1408,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Commercial Low-Slope"
+    ],
+    "years_certified": 11,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-022",
+    "name": "Summit Ridge Roofing & Restoration",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30061",
+    "latitude": 33.7883,
+    "longitude": -84.6611,
+    "phone": "(770) 555-1900",
+    "rating": 4.6,
+    "review_count": 1299,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Commercial Low-Slope"
+    ],
+    "years_certified": 15,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-023",
+    "name": "Summit Ridge Roofing & Exteriors",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30061",
+    "latitude": 33.9075,
+    "longitude": -84.4296,
+    "phone": "(770) 555-7021",
+    "rating": 4.4,
+    "review_count": 1488,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [],
+    "years_certified": 18,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-024",
+    "name": "Brightwater Roofing Group",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30061",
+    "latitude": 34.0479,
+    "longitude": -84.656,
+    "phone": "(770) 555-1735",
+    "rating": 4.3,
+    "review_count": 1580,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "FORTIFIED Roof"
+    ],
+    "years_certified": 6,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-025",
+    "name": "Tidewater Roofing & Exteriors",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30061",
+    "latitude": 33.9006,
+    "longitude": -84.552,
+    "phone": "(770) 555-4818",
+    "rating": 4.5,
+    "review_count": 66,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "FORTIFIED Roof"
+    ],
+    "years_certified": 22,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-026",
+    "name": "Ridgecrest Roof Systems",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30061",
+    "latitude": 34.0253,
+    "longitude": -84.463,
+    "phone": "(770) 555-5322",
+    "rating": 4.5,
+    "review_count": 223,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Storm Restoration"
+    ],
+    "years_certified": 20,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-027",
+    "name": "Harbor Light Roof & Gutter",
+    "city": "Marietta",
+    "state": "GA",
+    "zip": "30061",
+    "latitude": 33.9019,
+    "longitude": -84.5309,
+    "phone": "(770) 555-7902",
+    "rating": 4.5,
+    "review_count": 586,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "FORTIFIED Roof",
+      "Storm Restoration"
+    ],
+    "years_certified": 19,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-028",
+    "name": "Stonebridge Roofing Group",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31401",
+    "latitude": 32.1787,
+    "longitude": -81.0162,
+    "phone": "(912) 555-6043",
+    "rating": 4.7,
+    "review_count": 405,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [],
+    "years_certified": 18,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-029",
+    "name": "Northstar Roofing Specialists",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31401",
+    "latitude": 32.1522,
+    "longitude": -80.9716,
+    "phone": "(912) 555-3343",
+    "rating": 4.8,
+    "review_count": 1348,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Commercial Low-Slope"
+    ],
+    "years_certified": 13,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-030",
+    "name": "Summit Ridge Roof Systems",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31401",
+    "latitude": 32.1589,
+    "longitude": -81.0921,
+    "phone": "(912) 555-9818",
+    "rating": 4.9,
+    "review_count": 1702,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [
+      "Solar",
+      "Metal"
+    ],
+    "years_certified": 7,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-031",
+    "name": "Northstar Exteriors",
+    "city": "Savannah",
+    "state": "GA",
+    "zip": "31401",
+    "latitude": 32.0953,
+    "longitude": -81.2865,
+    "phone": "(912) 555-8391",
+    "rating": 4.9,
+    "review_count": 1431,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [],
+    "years_certified": 21,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-032",
+    "name": "Atlas Roofing Group",
+    "city": "Dallas",
+    "state": "TX",
+    "zip": "75201",
+    "latitude": 32.9562,
+    "longitude": -96.7662,
+    "phone": "(214) 555-9968",
+    "rating": 4.5,
+    "review_count": 483,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite"
+    ],
+    "specialties": [
+      "Metal",
+      "Tile"
+    ],
+    "years_certified": 13,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-033",
+    "name": "Old Dominion Roof & Gutter",
+    "city": "Dallas",
+    "state": "TX",
+    "zip": "75201",
+    "latitude": 32.8598,
+    "longitude": -96.8127,
+    "phone": "(214) 555-1680",
+    "rating": 5.0,
+    "review_count": 418,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Storm Restoration",
+      "Solar"
+    ],
+    "years_certified": 7,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-034",
+    "name": "Bayshore Roof Systems",
+    "city": "Dallas",
+    "state": "TX",
+    "zip": "75201",
+    "latitude": 32.9541,
+    "longitude": -96.9196,
+    "phone": "(214) 555-5702",
+    "rating": 4.6,
+    "review_count": 1204,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [],
+    "years_certified": 22,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-035",
+    "name": "Blue Heron Roofing & Exteriors",
+    "city": "Dallas",
+    "state": "TX",
+    "zip": "75201",
+    "latitude": 32.762,
+    "longitude": -96.9624,
+    "phone": "(214) 555-1893",
+    "rating": 4.5,
+    "review_count": 1003,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "FORTIFIED Roof",
+      "Tile"
+    ],
+    "years_certified": 19,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-036",
+    "name": "Clearwater Roofing Co",
+    "city": "Dallas",
+    "state": "TX",
+    "zip": "75201",
+    "latitude": 32.9522,
+    "longitude": -96.6951,
+    "phone": "(214) 555-2149",
+    "rating": 4.5,
+    "review_count": 110,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [],
+    "years_certified": 7,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-037",
+    "name": "Pinnacle Roofing & Restoration",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77002",
+    "latitude": 29.7055,
+    "longitude": -95.3316,
+    "phone": "(713) 555-3890",
+    "rating": 4.6,
+    "review_count": 193,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Commercial Low-Slope"
+    ],
+    "years_certified": 14,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-038",
+    "name": "Evergreen Roofing Specialists",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77002",
+    "latitude": 29.8367,
+    "longitude": -95.4094,
+    "phone": "(713) 555-3915",
+    "rating": 4.8,
+    "review_count": 1013,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite"
+    ],
+    "specialties": [],
+    "years_certified": 9,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-039",
+    "name": "Old Dominion Roof Works",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77002",
+    "latitude": 29.7383,
+    "longitude": -95.49,
+    "phone": "(713) 555-2355",
+    "rating": 4.9,
+    "review_count": 325,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [],
+    "years_certified": 18,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-040",
+    "name": "Old Dominion Roofing",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77002",
+    "latitude": 29.7473,
+    "longitude": -95.4903,
+    "phone": "(713) 555-6758",
+    "rating": 4.9,
+    "review_count": 1151,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Metal",
+      "Tile"
+    ],
+    "years_certified": 16,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-041",
+    "name": "Crestview Exteriors",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77002",
+    "latitude": 29.7851,
+    "longitude": -95.326,
+    "phone": "(713) 555-5735",
+    "rating": 4.6,
+    "review_count": 916,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [
+      "Metal"
+    ],
+    "years_certified": 22,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-042",
+    "name": "Silver Sail Roof & Gutter",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77002",
+    "latitude": 29.5804,
+    "longitude": -95.2258,
+    "phone": "(713) 555-1842",
+    "rating": 4.5,
+    "review_count": 1124,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [],
+    "years_certified": 12,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-043",
+    "name": "Sunbelt Roofing & Exteriors",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip": "28202",
+    "latitude": 35.128,
+    "longitude": -80.8797,
+    "phone": "(704) 555-1550",
+    "rating": 4.8,
+    "review_count": 1313,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Metal"
+    ],
+    "years_certified": 12,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-044",
+    "name": "Heritage Roof Systems",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip": "28202",
+    "latitude": 35.2379,
+    "longitude": -80.6486,
+    "phone": "(704) 555-7214",
+    "rating": 4.3,
+    "review_count": 1391,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [],
+    "years_certified": 6,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-045",
+    "name": "Sawgrass Roofing & Restoration",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip": "28202",
+    "latitude": 35.1568,
+    "longitude": -80.6971,
+    "phone": "(704) 555-5591",
+    "rating": 4.4,
+    "review_count": 221,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Metal",
+      "Commercial Low-Slope"
+    ],
+    "years_certified": 21,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-046",
+    "name": "Atlas Exteriors",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip": "28202",
+    "latitude": 35.351,
+    "longitude": -80.8055,
+    "phone": "(704) 555-9972",
+    "rating": 4.7,
+    "review_count": 1946,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Storm Restoration"
+    ],
+    "years_certified": 21,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-047",
+    "name": "Blue Heron Roofing Co",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip": "28202",
+    "latitude": 35.1843,
+    "longitude": -80.6975,
+    "phone": "(704) 555-7205",
+    "rating": 4.4,
+    "review_count": 737,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Metal"
+    ],
+    "years_certified": 6,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-048",
+    "name": "Ironclad Roofing & Exteriors",
+    "city": "Newark",
+    "state": "NJ",
+    "zip": "07102",
+    "latitude": 40.6972,
+    "longitude": -74.0937,
+    "phone": "(973) 555-1176",
+    "rating": 4.8,
+    "review_count": 861,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "FORTIFIED Roof",
+      "Tile"
+    ],
+    "years_certified": 20,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-049",
+    "name": "Brightwater Roofing & Exteriors",
+    "city": "Newark",
+    "state": "NJ",
+    "zip": "07102",
+    "latitude": 40.856,
+    "longitude": -74.2236,
+    "phone": "(973) 555-3644",
+    "rating": 4.5,
+    "review_count": 136,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Tile"
+    ],
+    "years_certified": 22,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-050",
+    "name": "Palmetto Roofing Group",
+    "city": "Newark",
+    "state": "NJ",
+    "zip": "07102",
+    "latitude": 40.6429,
+    "longitude": -74.1564,
+    "phone": "(973) 555-5967",
+    "rating": 4.5,
+    "review_count": 226,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Commercial Low-Slope",
+      "Metal"
+    ],
+    "years_certified": 4,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-051",
+    "name": "Sawgrass Roofing Co",
+    "city": "Newark",
+    "state": "NJ",
+    "zip": "07102",
+    "latitude": 40.6365,
+    "longitude": -74.2326,
+    "phone": "(973) 555-3641",
+    "rating": 4.9,
+    "review_count": 856,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [],
+    "years_certified": 2,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-052",
+    "name": "Copperline Exteriors",
+    "city": "Newark",
+    "state": "NJ",
+    "zip": "07102",
+    "latitude": 40.7984,
+    "longitude": -73.9856,
+    "phone": "(973) 555-8671",
+    "rating": 4.9,
+    "review_count": 1136,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [],
+    "years_certified": 18,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-053",
+    "name": "Ridgecrest Roof Works",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60606",
+    "latitude": 41.8132,
+    "longitude": -87.5358,
+    "phone": "(312) 555-1483",
+    "rating": 4.7,
+    "review_count": 455,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Storm Restoration",
+      "Commercial Low-Slope"
+    ],
+    "years_certified": 3,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-054",
+    "name": "Red Cedar Exteriors",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60606",
+    "latitude": 41.9326,
+    "longitude": -87.6047,
+    "phone": "(312) 555-3460",
+    "rating": 4.3,
+    "review_count": 806,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite"
+    ],
+    "specialties": [],
+    "years_certified": 9,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-055",
+    "name": "Palmetto Roof Works",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60606",
+    "latitude": 41.7419,
+    "longitude": -87.763,
+    "phone": "(312) 555-6330",
+    "rating": 4.5,
+    "review_count": 374,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Metal"
+    ],
+    "years_certified": 12,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-056",
+    "name": "Live Oak Roof Works",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60606",
+    "latitude": 41.956,
+    "longitude": -87.5877,
+    "phone": "(312) 555-6870",
+    "rating": 4.4,
+    "review_count": 703,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [],
+    "years_certified": 13,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-057",
+    "name": "Pinnacle Roofing Group",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60606",
+    "latitude": 41.7125,
+    "longitude": -87.7639,
+    "phone": "(312) 555-1208",
+    "rating": 4.7,
+    "review_count": 238,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Tile"
+    ],
+    "years_certified": 21,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-058",
+    "name": "Ironclad Roofing Specialists",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85003",
+    "latitude": 33.5644,
+    "longitude": -112.1071,
+    "phone": "(602) 555-4901",
+    "rating": 4.9,
+    "review_count": 2064,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Tile"
+    ],
+    "years_certified": 15,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-059",
+    "name": "Gulfstream Roof & Gutter",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85003",
+    "latitude": 33.4642,
+    "longitude": -111.9522,
+    "phone": "(602) 555-9474",
+    "rating": 4.8,
+    "review_count": 817,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "FORTIFIED Roof",
+      "Storm Restoration"
+    ],
+    "years_certified": 20,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-060",
+    "name": "Ridgecrest Roof & Gutter",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85003",
+    "latitude": 33.4786,
+    "longitude": -112.0655,
+    "phone": "(602) 555-9210",
+    "rating": 4.7,
+    "review_count": 1943,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [],
+    "years_certified": 10,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-061",
+    "name": "Skyline Roof Systems",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85003",
+    "latitude": 33.2792,
+    "longitude": -112.2673,
+    "phone": "(602) 555-4259",
+    "rating": 4.5,
+    "review_count": 1167,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Solar"
+    ],
+    "years_certified": 13,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-062",
+    "name": "Old Dominion Exteriors",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80202",
+    "latitude": 39.7262,
+    "longitude": -104.9079,
+    "phone": "(303) 555-7026",
+    "rating": 4.8,
+    "review_count": 1260,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Metal",
+      "FORTIFIED Roof"
+    ],
+    "years_certified": 5,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-063",
+    "name": "Red Cedar Roofing",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80202",
+    "latitude": 39.8945,
+    "longitude": -105.0235,
+    "phone": "(303) 555-6182",
+    "rating": 4.9,
+    "review_count": 24,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Metal",
+      "Commercial Low-Slope"
+    ],
+    "years_certified": 14,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-064",
+    "name": "Pinnacle Roof Systems",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80202",
+    "latitude": 39.8673,
+    "longitude": -105.1702,
+    "phone": "(303) 555-5662",
+    "rating": 4.5,
+    "review_count": 270,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite"
+    ],
+    "specialties": [
+      "Metal"
+    ],
+    "years_certified": 13,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-065",
+    "name": "Ridgecrest Roofing Co",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80202",
+    "latitude": 39.8293,
+    "longitude": -105.1122,
+    "phone": "(303) 555-7703",
+    "rating": 4.9,
+    "review_count": 1172,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Commercial Low-Slope",
+      "Metal"
+    ],
+    "years_certified": 6,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-066",
+    "name": "Tidewater Roofing Co",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80202",
+    "latitude": 39.8109,
+    "longitude": -104.888,
+    "phone": "(303) 555-6995",
+    "rating": 4.5,
+    "review_count": 1233,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [],
+    "years_certified": 6,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-067",
+    "name": "Silver Sail Roofing Specialists",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98101",
+    "latitude": 47.7335,
+    "longitude": -122.5068,
+    "phone": "(206) 555-1119",
+    "rating": 4.8,
+    "review_count": 1480,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Metal",
+      "Tile"
+    ],
+    "years_certified": 21,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-068",
+    "name": "Bayshore Roofing",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98101",
+    "latitude": 47.541,
+    "longitude": -122.4234,
+    "phone": "(206) 555-3257",
+    "rating": 5.0,
+    "review_count": 723,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Storm Restoration"
+    ],
+    "years_certified": 20,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-069",
+    "name": "Harbor Light Roofing & Restoration",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98101",
+    "latitude": 47.6026,
+    "longitude": -122.29,
+    "phone": "(206) 555-8250",
+    "rating": 4.3,
+    "review_count": 1148,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Metal",
+      "Solar"
+    ],
+    "years_certified": 3,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-070",
+    "name": "Palmetto Roofing Co",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98101",
+    "latitude": 47.7764,
+    "longitude": -122.1612,
+    "phone": "(206) 555-1634",
+    "rating": 4.5,
+    "review_count": 1985,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Solar",
+      "FORTIFIED Roof"
+    ],
+    "years_certified": 13,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-071",
+    "name": "Keystone Roofing & Restoration",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98101",
+    "latitude": 47.454,
+    "longitude": -122.3123,
+    "phone": "(206) 555-8682",
+    "rating": 4.8,
+    "review_count": 1498,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "FORTIFIED Roof",
+      "Tile"
+    ],
+    "years_certified": 15,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-072",
+    "name": "Evergreen Roof & Gutter",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90017",
+    "latitude": 34.0325,
+    "longitude": -118.3582,
+    "phone": "(213) 555-3315",
+    "rating": 4.7,
+    "review_count": 413,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Solar"
+    ],
+    "years_certified": 4,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-073",
+    "name": "Heritage Roof Works",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90017",
+    "latitude": 34.0123,
+    "longitude": -118.2321,
+    "phone": "(213) 555-1021",
+    "rating": 4.4,
+    "review_count": 1935,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Solar",
+      "FORTIFIED Roof"
+    ],
+    "years_certified": 11,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-074",
+    "name": "Longleaf Roofing & Restoration",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90017",
+    "latitude": 34.1611,
+    "longitude": -118.4303,
+    "phone": "(213) 555-6531",
+    "rating": 4.5,
+    "review_count": 1721,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "FORTIFIED Roof",
+      "Commercial Low-Slope"
+    ],
+    "years_certified": 5,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-075",
+    "name": "Old Dominion Roofing Co",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90017",
+    "latitude": 34.0977,
+    "longitude": -118.2118,
+    "phone": "(213) 555-7214",
+    "rating": 4.9,
+    "review_count": 1336,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Tile",
+      "Solar"
+    ],
+    "years_certified": 2,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-076",
+    "name": "Sawgrass Roofing Group",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90017",
+    "latitude": 33.9095,
+    "longitude": -118.2909,
+    "phone": "(213) 555-5674",
+    "rating": 4.7,
+    "review_count": 1599,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "FORTIFIED Roof"
+    ],
+    "years_certified": 12,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-077",
+    "name": "Copperline Roofing & Restoration",
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215",
+    "latitude": 40.0441,
+    "longitude": -83.1581,
+    "phone": "(614) 555-9662",
+    "rating": 4.7,
+    "review_count": 1737,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [
+      "Commercial Low-Slope"
+    ],
+    "years_certified": 11,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-078",
+    "name": "Old Dominion Roofing Specialists",
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215",
+    "latitude": 40.069,
+    "longitude": -83.1232,
+    "phone": "(614) 555-3277",
+    "rating": 4.8,
+    "review_count": 1334,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [],
+    "years_certified": 4,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-079",
+    "name": "TrueLine Roofing & Exteriors",
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215",
+    "latitude": 39.9252,
+    "longitude": -82.8622,
+    "phone": "(614) 555-3226",
+    "rating": 4.6,
+    "review_count": 1559,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite"
+    ],
+    "specialties": [
+      "Tile"
+    ],
+    "years_certified": 15,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-080",
+    "name": "Crestview Roof Works",
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215",
+    "latitude": 39.7988,
+    "longitude": -83.0775,
+    "phone": "(614) 555-3441",
+    "rating": 4.8,
+    "review_count": 111,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [
+      "Commercial Low-Slope",
+      "Tile"
+    ],
+    "years_certified": 18,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-081",
+    "name": "Meridian Exteriors",
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215",
+    "latitude": 39.9276,
+    "longitude": -83.1379,
+    "phone": "(614) 555-5846",
+    "rating": 4.9,
+    "review_count": 334,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified"
+    ],
+    "specialties": [
+      "Solar"
+    ],
+    "years_certified": 14,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-082",
+    "name": "Cypress Point Roofing Co",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip": "19103",
+    "latitude": 40.112,
+    "longitude": -75.1849,
+    "phone": "(215) 555-9182",
+    "rating": 4.7,
+    "review_count": 972,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [
+      "Solar",
+      "Storm Restoration"
+    ],
+    "years_certified": 16,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-083",
+    "name": "Clearwater Roof Works",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip": "19103",
+    "latitude": 39.8085,
+    "longitude": -75.3476,
+    "phone": "(215) 555-9579",
+    "rating": 4.4,
+    "review_count": 1949,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [
+      "Commercial Low-Slope",
+      "Metal"
+    ],
+    "years_certified": 13,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-084",
+    "name": "Pinnacle Roofing",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip": "19103",
+    "latitude": 39.9418,
+    "longitude": -75.1803,
+    "phone": "(215) 555-7584",
+    "rating": 4.9,
+    "review_count": 605,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [],
+    "years_certified": 12,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-085",
+    "name": "Copperline Roofing",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip": "19103",
+    "latitude": 39.98,
+    "longitude": -75.172,
+    "phone": "(215) 555-7781",
+    "rating": 4.8,
+    "review_count": 1966,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [
+      "Commercial Low-Slope"
+    ],
+    "years_certified": 21,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-086",
+    "name": "Ironclad Roofing Group",
+    "city": "Nashville",
+    "state": "TN",
+    "zip": "37203",
+    "latitude": 36.2467,
+    "longitude": -86.9028,
+    "phone": "(615) 555-1058",
+    "rating": 4.8,
+    "review_count": 1456,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [],
+    "years_certified": 7,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 40,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-087",
+    "name": "Heritage Roofing Specialists",
+    "city": "Nashville",
+    "state": "TN",
+    "zip": "37203",
+    "latitude": 36.1578,
+    "longitude": -86.9473,
+    "phone": "(615) 555-9661",
+    "rating": 4.6,
+    "review_count": 2006,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite"
+    ],
+    "specialties": [],
+    "years_certified": 9,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-088",
+    "name": "Summit Ridge Roofing Specialists",
+    "city": "Nashville",
+    "state": "TN",
+    "zip": "37203",
+    "latitude": 36.1807,
+    "longitude": -86.8837,
+    "phone": "(615) 555-7438",
+    "rating": 4.9,
+    "review_count": 765,
+    "certification_tier": "certified_plus",
+    "certification_label": "GAF Certified Plus",
+    "warranties_offered": [
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Certified Plus"
+    ],
+    "specialties": [],
+    "years_certified": 14,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-089",
+    "name": "Palmetto Roofing Specialists",
+    "city": "Nashville",
+    "state": "TN",
+    "zip": "37203",
+    "latitude": 36.015,
+    "longitude": -86.9071,
+    "phone": "(615) 555-3366",
+    "rating": 4.5,
+    "review_count": 1681,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [],
+    "years_certified": 11,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 30,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-090",
+    "name": "Ironclad Roof Works",
+    "city": "Nashville",
+    "state": "TN",
+    "zip": "37203",
+    "latitude": 36.0339,
+    "longitude": -86.8009,
+    "phone": "(615) 555-4024",
+    "rating": 4.6,
+    "review_count": 1050,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF Master Elite",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Metal",
+      "Solar"
+    ],
+    "years_certified": 6,
+    "residential": true,
+    "commercial": true,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 20,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-091",
+    "name": "Gulfstream Roofing Specialists",
+    "city": "Nashville",
+    "state": "TN",
+    "zip": "37203",
+    "latitude": 36.1505,
+    "longitude": -86.6255,
+    "phone": "(615) 555-2471",
+    "rating": 4.9,
+    "review_count": 1626,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award",
+      "GAF Triple Excellence Award"
+    ],
+    "specialties": [
+      "Storm Restoration"
+    ],
+    "years_certified": 22,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "SYNTHETIC DEMO DATA -- fictional business."
+  },
+  {
+    "contractor_id": "CTR-092",
+    "name": "Arry's Roofing Services Inc",
+    "city": "Tarpon Springs",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 28.1461,
+    "longitude": -82.7568,
+    "phone": "(727) 939-7195",
+    "rating": 4.8,
+    "review_count": 1716,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-093",
+    "name": "Ridge Top Exteriors",
+    "city": "Clearwater",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.9659,
+    "longitude": -82.8001,
+    "phone": "(656) 800-9877",
+    "rating": 4.7,
+    "review_count": 1194,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-094",
+    "name": "Watertight Roofing Services LLC",
+    "city": "Tampa",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.9506,
+    "longitude": -82.4572,
+    "phone": "(813) 921-3601",
+    "rating": 4.7,
+    "review_count": 144,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-095",
+    "name": "Affordable Roofing Systems Inc",
+    "city": "Tampa",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.9506,
+    "longitude": -82.4572,
+    "phone": "(813) 921-7757",
+    "rating": 4.2,
+    "review_count": 160,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-096",
+    "name": "Baldwin Roofing Company LLC",
+    "city": "St Petersburg",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.7676,
+    "longitude": -82.6403,
+    "phone": "(813) 736-8824",
+    "rating": 4.9,
+    "review_count": 584,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-097",
+    "name": "Sharpe Roofing",
+    "city": "Odessa",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 28.1725,
+    "longitude": -82.5548,
+    "phone": "(727) 910-4993",
+    "rating": 4.9,
+    "review_count": 282,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-098",
+    "name": "Certified Roofers & General Contractors",
+    "city": "Valrico",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.9375,
+    "longitude": -82.2359,
+    "phone": "(813) 473-2015",
+    "rating": 4.8,
+    "review_count": 239,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-099",
+    "name": "Millard Roofing Inc",
+    "city": "Riverview",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.8661,
+    "longitude": -82.3254,
+    "phone": "(813) 473-6899",
+    "rating": 4.8,
+    "review_count": 112,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-100",
+    "name": "Dynamic Roofing Concepts Inc.",
+    "city": "Brandon",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.9378,
+    "longitude": -82.2859,
+    "phone": "(813) 937-5567",
+    "rating": 4.6,
+    "review_count": 64,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-101",
+    "name": "Blue Sky Roofing",
+    "city": "Largo",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.9095,
+    "longitude": -82.7873,
+    "phone": "(727) 966-2709",
+    "rating": 4.9,
+    "review_count": 245,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-102",
+    "name": "Weatherproof Roofing Company",
+    "city": "Clearwater",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.9659,
+    "longitude": -82.8001,
+    "phone": "(727) 732-2109",
+    "rating": 4.9,
+    "review_count": 218,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-103",
+    "name": "Robinson Roofing & Restoration LLC",
+    "city": "Lutz",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 28.1522,
+    "longitude": -82.4593,
+    "phone": "(656) 952-9196",
+    "rating": 4.9,
+    "review_count": 120,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-104",
+    "name": "Red Truck Roofing LLC",
+    "city": "Odessa",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 28.1725,
+    "longitude": -82.5548,
+    "phone": "(656) 223-3531",
+    "rating": 4.8,
+    "review_count": 262,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-105",
+    "name": "GreenTek Roofing & Solar",
+    "city": "Thonotosassa",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 28.0578,
+    "longitude": -82.3007,
+    "phone": "(833) 519-4525",
+    "rating": 4.7,
+    "review_count": 517,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-106",
+    "name": "Hytz Roofing Inc",
+    "city": "Tampa",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.9506,
+    "longitude": -82.4572,
+    "phone": "(813) 798-6803",
+    "rating": 5.0,
+    "review_count": 250,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-107",
+    "name": "Lionheart Roofing LLC",
+    "city": "Valrico",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.9375,
+    "longitude": -82.2359,
+    "phone": "(813) 736-9599",
+    "rating": 5.0,
+    "review_count": 79,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-108",
+    "name": "All-Bay Roofing Inc",
+    "city": "Odessa",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 28.1725,
+    "longitude": -82.5548,
+    "phone": "(727) 939-5331",
+    "rating": 5.0,
+    "review_count": 27,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-109",
+    "name": "Dynamic National",
+    "city": "St Petersburg",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.7676,
+    "longitude": -82.6403,
+    "phone": "(727) 390-3797",
+    "rating": 5.0,
+    "review_count": 4,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-110",
+    "name": "Protek Roofing Heating Air & Solar",
+    "city": "Tampa",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.9506,
+    "longitude": -82.4572,
+    "phone": "(727) 935-3141",
+    "rating": 4.9,
+    "review_count": 1056,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-111",
+    "name": "Drew Roofing Inc",
+    "city": "St Petersburg",
+    "state": "FL",
+    "zip": "33602",
+    "latitude": 27.7676,
+    "longitude": -82.6403,
+    "phone": "(727) 390-3147",
+    "rating": 4.9,
+    "review_count": 304,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-112",
+    "name": "Roof It Right",
+    "city": "Orange Park",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.1683,
+    "longitude": -81.7062,
+    "phone": "(904) 541-1191",
+    "rating": 4.6,
+    "review_count": 236,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-113",
+    "name": "Stonebridge Construction Services LLC",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 262-6636",
+    "rating": 4.6,
+    "review_count": 225,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-114",
+    "name": "Triton Roofing & Restoration LLC",
+    "city": "Fleming Island",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.1044,
+    "longitude": -81.7223,
+    "phone": "(904) 619-8212",
+    "rating": 4.4,
+    "review_count": 105,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-115",
+    "name": "Minorcan Construction Group Inc",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 497-9729",
+    "rating": 5.0,
+    "review_count": 10,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-116",
+    "name": "Red Fox Roofers LLC",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 404-1718",
+    "rating": 4.9,
+    "review_count": 409,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-117",
+    "name": "Benton Integrity Roofing Systems",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 262-7663",
+    "rating": 4.7,
+    "review_count": 107,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-118",
+    "name": "Preferred Roofing LLC",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 751-0840",
+    "rating": 4.7,
+    "review_count": 87,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-119",
+    "name": "All Weather Contractors",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 781-7060",
+    "rating": 4.5,
+    "review_count": 360,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-120",
+    "name": "Endless Summer Roofing Co",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 357-0722",
+    "rating": 5.0,
+    "review_count": 115,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-121",
+    "name": "Southern Coast Roofing",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 356-7663",
+    "rating": 4.9,
+    "review_count": 313,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-122",
+    "name": "First Light Home Services LLC",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 571-3646",
+    "rating": 4.9,
+    "review_count": 227,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-123",
+    "name": "Eco Restore LLC",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 226-9265",
+    "rating": 4.9,
+    "review_count": 131,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-124",
+    "name": "Bohemia Roofing Co Inc",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 859-3539",
+    "rating": 4.9,
+    "review_count": 108,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-125",
+    "name": "The Dantzler Group Inc",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 783-1010",
+    "rating": 4.9,
+    "review_count": 89,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-126",
+    "name": "Peak Roofing & Construction Inc",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 759-6932",
+    "rating": 4.9,
+    "review_count": 35,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-127",
+    "name": "TaylorMade Roofing Inc",
+    "city": "Yulee",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.6322,
+    "longitude": -81.6087,
+    "phone": "(904) 589-8430",
+    "rating": 4.7,
+    "review_count": 111,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-128",
+    "name": "Beaver Home Services Inc",
+    "city": "Orange Park",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.1683,
+    "longitude": -81.7062,
+    "phone": "(904) 591-6576",
+    "rating": 4.6,
+    "review_count": 481,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-129",
+    "name": "1st Impressions Contractors Inc",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 233-1116",
+    "rating": 4.6,
+    "review_count": 11,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-130",
+    "name": "Townsend Roofing & Construction Services",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 645-5887",
+    "rating": 4.5,
+    "review_count": 50,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-131",
+    "name": "Florida Shower and Bath LLC",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32202",
+    "latitude": 30.3322,
+    "longitude": -81.6557,
+    "phone": "(904) 518-6181",
+    "rating": 4.2,
+    "review_count": 358,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-132",
+    "name": "T&S Roofing Systems Inc",
+    "city": "Miami",
+    "state": "FL",
+    "zip": "33301",
+    "latitude": 25.765,
+    "longitude": -80.1936,
+    "phone": "(305) 363-6133",
+    "rating": 4.8,
+    "review_count": 1241,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-133",
+    "name": "Florida Home 360",
+    "city": "Pembroke Pines",
+    "state": "FL",
+    "zip": "33301",
+    "latitude": 26.0034,
+    "longitude": -80.3576,
+    "phone": "(954) 828-0208",
+    "rating": 4.8,
+    "review_count": 1145,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-134",
+    "name": "Earl W Johnston Roofing",
+    "city": "Hollywood",
+    "state": "FL",
+    "zip": "33301",
+    "latitude": 26.0112,
+    "longitude": -80.1495,
+    "phone": "(954) 989-7794",
+    "rating": 4.8,
+    "review_count": 438,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-135",
+    "name": "RHI Construction Inc",
+    "city": "Oakland Park",
+    "state": "FL",
+    "zip": "33301",
+    "latitude": 26.1706,
+    "longitude": -80.1329,
+    "phone": "(954) 290-3992",
+    "rating": 4.8,
+    "review_count": 181,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-136",
+    "name": "Imperial Roofing LLC",
+    "city": "Delray Beach",
+    "state": "FL",
+    "zip": "33301",
+    "latitude": 26.4615,
+    "longitude": -80.0728,
+    "phone": "(954) 667-2990",
+    "rating": 4.7,
+    "review_count": 25,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-137",
+    "name": "ABC Roofing Corp",
+    "city": "Coral Springs",
+    "state": "FL",
+    "zip": "33301",
+    "latitude": 26.2712,
+    "longitude": -80.2706,
+    "phone": "(954) 344-4622",
+    "rating": 4.6,
+    "review_count": 399,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-138",
+    "name": "Nast Roofing",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "zip": "33301",
+    "latitude": 26.1224,
+    "longitude": -80.1373,
+    "phone": "(954) 475-0610",
+    "rating": 4.6,
+    "review_count": 383,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-139",
+    "name": "All American Roofing Inc",
+    "city": "Oakland Park",
+    "state": "FL",
+    "zip": "33301",
+    "latitude": 26.1706,
+    "longitude": -80.1329,
+    "phone": "(954) 772-7663",
+    "rating": 4.6,
+    "review_count": 139,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-140",
+    "name": "CWC Roofing",
+    "city": "Fort Myers",
+    "state": "FL",
+    "zip": "34102",
+    "latitude": 26.47,
+    "longitude": -81.87,
+    "phone": "(636) 681-6291",
+    "rating": 5.0,
+    "review_count": 14,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-141",
+    "name": "Gulf Coast Roofing Company Inc",
+    "city": "Naples",
+    "state": "FL",
+    "zip": "34102",
+    "latitude": 26.142,
+    "longitude": -81.7948,
+    "phone": "(239) 653-8342",
+    "rating": 4.8,
+    "review_count": 59,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-142",
+    "name": "Saint Raphael Roofing Inc",
+    "city": "Fort Myers",
+    "state": "FL",
+    "zip": "34102",
+    "latitude": 26.47,
+    "longitude": -81.87,
+    "phone": "(239) 999-3315",
+    "rating": 4.6,
+    "review_count": 136,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-143",
+    "name": "Halo Roofing Inc",
+    "city": "Naples",
+    "state": "FL",
+    "zip": "34102",
+    "latitude": 26.142,
+    "longitude": -81.7948,
+    "phone": "(239) 610-7340",
+    "rating": 5.0,
+    "review_count": 40,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": false,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-144",
+    "name": "Roof Wars LLC",
+    "city": "Naples",
+    "state": "FL",
+    "zip": "34102",
+    "latitude": 26.142,
+    "longitude": -81.7948,
+    "phone": "(239) 383-0064",
+    "rating": 5.0,
+    "review_count": 11,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": false,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-145",
+    "name": "D' Roofing Group Inc",
+    "city": "Naples",
+    "state": "FL",
+    "zip": "34102",
+    "latitude": 26.142,
+    "longitude": -81.7948,
+    "phone": "(645) 666-1558",
+    "rating": 4.9,
+    "review_count": 46,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": false,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-146",
+    "name": "iRoof LLC",
+    "city": "Naples",
+    "state": "FL",
+    "zip": "34102",
+    "latitude": 26.142,
+    "longitude": -81.7948,
+    "phone": "(239) 447-1066",
+    "rating": 4.9,
+    "review_count": 31,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": false,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-147",
+    "name": "RRCA",
+    "city": "Naples",
+    "state": "FL",
+    "zip": "34102",
+    "latitude": 26.142,
+    "longitude": -81.7948,
+    "phone": "(239) 734-2993",
+    "rating": 4.3,
+    "review_count": 489,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": false,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-148",
+    "name": "Gulf Western Roofing",
+    "city": "Bonita Springs",
+    "state": "FL",
+    "zip": "34102",
+    "latitude": 26.3398,
+    "longitude": -81.7787,
+    "phone": "(239) 734-6995",
+    "rating": 4.0,
+    "review_count": 30,
+    "certification_tier": "certified",
+    "certification_label": "GAF Certified",
+    "warranties_offered": [
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": false,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-149",
+    "name": "BFARR Contracting",
+    "city": "Winter Park",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5999,
+    "longitude": -81.3392,
+    "phone": "(321) 475-1438",
+    "rating": 5.0,
+    "review_count": 636,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-150",
+    "name": "JA Edwards of America",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5383,
+    "longitude": -81.3792,
+    "phone": "(407) 677-7663",
+    "rating": 4.6,
+    "review_count": 421,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-151",
+    "name": "Schick Roofing",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5383,
+    "longitude": -81.3792,
+    "phone": "(407) 749-0808",
+    "rating": 5.0,
+    "review_count": 373,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-152",
+    "name": "Sheegog Contracting",
+    "city": "Winter Park",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5999,
+    "longitude": -81.3392,
+    "phone": "(407) 637-5339",
+    "rating": 4.9,
+    "review_count": 511,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-153",
+    "name": "Next Level Roofers Inc",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5383,
+    "longitude": -81.3792,
+    "phone": "(407) 237-7960",
+    "rating": 4.9,
+    "review_count": 409,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-154",
+    "name": "Level Roofing",
+    "city": "Winter Garden",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5654,
+    "longitude": -81.5862,
+    "phone": "(407) 883-0637",
+    "rating": 4.9,
+    "review_count": 392,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-155",
+    "name": "CFL Roofing Inc",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5383,
+    "longitude": -81.3792,
+    "phone": "(407) 917-7663",
+    "rating": 4.9,
+    "review_count": 356,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-156",
+    "name": "Roof Bear LLC",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5383,
+    "longitude": -81.3792,
+    "phone": "(847) 863-2324",
+    "rating": 4.8,
+    "review_count": 269,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-157",
+    "name": "Edge 2 Edge Roofing LLC",
+    "city": "Longwood",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.7031,
+    "longitude": -81.3387,
+    "phone": "(678) 765-6510",
+    "rating": 4.7,
+    "review_count": 26,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-158",
+    "name": "Stratus Roofing",
+    "city": "Maitland",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.6281,
+    "longitude": -81.3631,
+    "phone": "(407) 625-5866",
+    "rating": 4.6,
+    "review_count": 174,
+    "certification_tier": "presidents_club",
+    "certification_label": "GAF President's Club Award",
+    "warranties_offered": [
+      "President's Club Limited Warranty",
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [
+      "GAF President's Club Award"
+    ],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-159",
+    "name": "Construction Unlimited",
+    "city": "Apopka",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.6934,
+    "longitude": -81.5322,
+    "phone": "(407) 714-1919",
+    "rating": 4.9,
+    "review_count": 219,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-160",
+    "name": "AGU Roofing & Solar LLC",
+    "city": "Minneola",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5658,
+    "longitude": -81.7359,
+    "phone": "(407) 459-6904",
+    "rating": 4.9,
+    "review_count": 215,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-161",
+    "name": "Fiddler's Roofing",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5383,
+    "longitude": -81.3792,
+    "phone": "(407) 366-2300",
+    "rating": 4.9,
+    "review_count": 188,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-162",
+    "name": "Best Price Roofing Inc",
+    "city": "Apopka",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.6934,
+    "longitude": -81.5322,
+    "phone": "(407) 814-3572",
+    "rating": 4.9,
+    "review_count": 105,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-163",
+    "name": "Premiere Roofing & Carpentry Inc",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.5383,
+    "longitude": -81.3792,
+    "phone": "(407) 578-6893",
+    "rating": 4.4,
+    "review_count": 59,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  },
+  {
+    "contractor_id": "CTR-164",
+    "name": "Sun Coast Roofing and Solar",
+    "city": "Longwood",
+    "state": "FL",
+    "zip": "32801",
+    "latitude": 28.7031,
+    "longitude": -81.3387,
+    "phone": "(407) 322-2925",
+    "rating": 4.1,
+    "review_count": 23,
+    "certification_tier": "master_elite",
+    "certification_label": "GAF Master Elite",
+    "warranties_offered": [
+      "Golden Pledge Limited Warranty",
+      "Silver Pledge Limited Warranty",
+      "System Plus Limited Warranty"
+    ],
+    "awards": [],
+    "specialties": [],
+    "years_certified": null,
+    "residential": true,
+    "commercial": false,
+    "accepts_quote_requests": true,
+    "service_radius_miles": 25,
+    "notes": "REAL DATA -- copied from gaf.com's public contractor locator by the user on 2026-09-18; not GAF-affiliated, not verified beyond what the locator showed, and will drift from gaf.com's live site over time."
+  }
+]

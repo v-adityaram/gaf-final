@@ -1,0 +1,156 @@
+[
+  {
+    "discount_id": "DSC-VOL-30",
+    "name": "Volume pricing -- 30+ squares",
+    "kind": "volume",
+    "percent": 3.0,
+    "applies_to": {
+      "product_types": [
+        "Main shingle"
+      ]
+    },
+    "min_squares": 30,
+    "valid_from": null,
+    "valid_to": null,
+    "stackable": true,
+    "auto_apply": true,
+    "badge": "Bulk 3%",
+    "description": "3% off shingle lines when the order totals 30 squares or more."
+  },
+  {
+    "discount_id": "DSC-VOL-60",
+    "name": "Volume pricing -- 60+ squares",
+    "kind": "volume",
+    "percent": 5.0,
+    "applies_to": {
+      "product_types": [
+        "Main shingle"
+      ]
+    },
+    "min_squares": 60,
+    "valid_from": null,
+    "valid_to": null,
+    "stackable": true,
+    "auto_apply": true,
+    "badge": "Bulk 5%",
+    "description": "5% off shingle lines when the order totals 60 squares or more."
+  },
+  {
+    "discount_id": "DSC-VOL-100",
+    "name": "Volume pricing -- 100+ squares",
+    "kind": "volume",
+    "percent": 8.0,
+    "applies_to": {
+      "product_types": [
+        "Main shingle"
+      ]
+    },
+    "min_squares": 100,
+    "valid_from": null,
+    "valid_to": null,
+    "stackable": true,
+    "auto_apply": true,
+    "badge": "Bulk 8%",
+    "description": "8% off shingle lines when the order totals 100 squares or more."
+  },
+  {
+    "discount_id": "DSC-SEA-FALL",
+    "name": "Fall Roofing Season -- Timberline HDZ",
+    "kind": "seasonal",
+    "percent": 4.0,
+    "applies_to": {
+      "product_families": [
+        "Timberline HDZ"
+      ]
+    },
+    "min_squares": null,
+    "valid_from": "2026-09-01",
+    "valid_to": "2026-10-31",
+    "stackable": true,
+    "auto_apply": true,
+    "badge": "Fall promo 4%",
+    "description": "4% off Timberline HDZ shingles for orders placed 1 Sep - 31 Oct 2026."
+  },
+  {
+    "discount_id": "DSC-SEA-UHDZ",
+    "name": "UltraMat launch -- Timberline UHDZ",
+    "kind": "seasonal",
+    "percent": 2.5,
+    "applies_to": {
+      "product_families": [
+        "Timberline UHDZ"
+      ]
+    },
+    "min_squares": null,
+    "valid_from": "2026-09-01",
+    "valid_to": "2026-09-30",
+    "stackable": true,
+    "auto_apply": true,
+    "badge": "Launch 2.5%",
+    "description": "2.5% off Timberline UHDZ during September 2026."
+  },
+  {
+    "discount_id": "DSC-SEA-WINTER",
+    "name": "Winter Prep -- leak barrier & deck protection",
+    "kind": "seasonal",
+    "percent": 6.0,
+    "applies_to": {
+      "product_types": [
+        "Leak barrier",
+        "Roof deck protection"
+      ]
+    },
+    "min_squares": null,
+    "valid_from": "2026-11-01",
+    "valid_to": "2027-01-31",
+    "stackable": true,
+    "auto_apply": true,
+    "badge": "Winter 6%",
+    "description": "6% off leak barrier and roof deck protection rolls from November through January."
+  },
+  {
+    "discount_id": "DSC-SYS-COMPLETE",
+    "name": "Complete System bonus",
+    "kind": "bundle",
+    "percent": 5.0,
+    "applies_to": {
+      "product_types": [
+        "Starter strip",
+        "Roof deck protection",
+        "Leak barrier",
+        "Ridge cap"
+      ]
+    },
+    "min_squares": null,
+    "valid_from": null,
+    "valid_to": null,
+    "stackable": true,
+    "auto_apply": true,
+    "badge": "System 5%",
+    "requires_categories": [
+      "Starter strip",
+      "Roof deck protection",
+      "Leak barrier",
+      "Ridge cap"
+    ],
+    "description": "5% off add-on lines when all four WindProven add-on categories are on the order."
+  },
+  {
+    "discount_id": "DSC-ACC-DIST",
+    "name": "Distributor trade allowance",
+    "kind": "account",
+    "percent": 2.0,
+    "applies_to": {
+      "customer_types": [
+        "Distributor"
+      ]
+    },
+    "min_squares": null,
+    "valid_from": null,
+    "valid_to": null,
+    "stackable": true,
+    "auto_apply": true,
+    "badge": "Trade 2%",
+    "description": "2% trade allowance on the whole order for Distributor accounts."
+  }
+]

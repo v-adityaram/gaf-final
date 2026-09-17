@@ -1,0 +1,23 @@
+[
+  {
+    "tier": "Standard Limited",
+    "install_method": "Standard nailing pattern",
+    "add_ons_required": [
+      "Shingle only"
+    ],
+    "wind_coverage": "Up to 130 mph",
+    "notes": "SYNTHETIC DEMO DATA"
+  },
+  {
+    "tier": "WindProven",
+    "install_method": "LayerLock nailing method + full add-on system",
+    "add_ons_required": [
+      "Leak barrier",
+      "Roof deck protection",
+      "Starter strip",
+      "Ridge cap"
+    ],
+    "wind_coverage": "No maximum wind speed (system required)",
+    "notes": "SYNTHETIC DEMO DATA"
+  }
+]

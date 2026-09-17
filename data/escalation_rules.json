@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "General product facts, warranty tiers, add-on categories, pricing, approvals, comparisons",
+    "action": "Answer (with source)",
+    "send_to": null
+  },
+  {
+    "topic": "Exact nailing pattern, fastener spacing, or nail count for a specific roof",
+    "action": "Escalate (standard)",
+    "send_to": "Technical Services"
+  },
+  {
+    "topic": "Building-specific wind-speed / engineering calculations, local code compliance, or HVHZ technical installation detail",
+    "action": "Escalate (standard)",
+    "send_to": "Technical Services"
+  },
+  {
+    "topic": "Leak, safety concern, or possible product defect/failure",
+    "action": "Escalate (urgent)",
+    "send_to": "Technical Services"
+  },
+  {
+    "topic": "Anything with no approved, current source",
+    "action": "Say \"no approved source available\"",
+    "send_to": null
+  }
+]

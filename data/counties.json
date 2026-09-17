@@ -1,0 +1,202 @@
+[
+  {
+    "region_id": "FL-HIL",
+    "county": "Hillsborough",
+    "state": "FL",
+    "regime": "Non-HVHZ",
+    "approval_context": "Statewide approval context",
+    "assistant_behavior": "General product/warranty answer allowed; project-specific design escalates"
+  },
+  {
+    "region_id": "FL-MIA",
+    "county": "Miami-Dade",
+    "state": "FL",
+    "regime": "HVHZ",
+    "approval_context": "Miami-Dade approval context",
+    "assistant_behavior": "HVHZ specifics escalate"
+  },
+  {
+    "region_id": "FL-BRO",
+    "county": "Broward",
+    "state": "FL",
+    "regime": "HVHZ",
+    "approval_context": "Miami-Dade approval context",
+    "assistant_behavior": "HVHZ specifics escalate"
+  },
+  {
+    "region_id": "FL-COL",
+    "county": "Collier",
+    "state": "FL",
+    "regime": "Non-HVHZ",
+    "approval_context": "Statewide approval context",
+    "assistant_behavior": "Project-specific design escalates"
+  },
+  {
+    "region_id": "FL-DUV",
+    "county": "Duval",
+    "state": "FL",
+    "regime": "Non-HVHZ",
+    "approval_context": "Statewide approval context",
+    "assistant_behavior": "Project-specific design escalates"
+  },
+  {
+    "region_id": "GA-FUL",
+    "county": "Fulton",
+    "state": "GA",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement"
+  },
+  {
+    "region_id": "TX-DAL",
+    "county": "Dallas",
+    "state": "TX",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement"
+  },
+  {
+    "region_id": "FL-ORA",
+    "county": "Orange",
+    "state": "FL",
+    "regime": "Non-HVHZ",
+    "approval_context": "Statewide approval context",
+    "assistant_behavior": "Project-specific design escalates",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "FL-PBC",
+    "county": "Palm Beach",
+    "state": "FL",
+    "regime": "Non-HVHZ",
+    "approval_context": "Statewide approval context",
+    "assistant_behavior": "Project-specific design escalates; coastal wind questions escalate",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "FL-ESC",
+    "county": "Escambia",
+    "state": "FL",
+    "regime": "Non-HVHZ",
+    "approval_context": "Statewide approval context",
+    "assistant_behavior": "Project-specific design escalates",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "GA-COB",
+    "county": "Cobb",
+    "state": "GA",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "GA-CHA",
+    "county": "Chatham",
+    "state": "GA",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "TX-HAR",
+    "county": "Harris",
+    "state": "TX",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "NC-MEC",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "NJ-ESS",
+    "county": "Essex",
+    "state": "NJ",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "IL-COO",
+    "county": "Cook",
+    "state": "IL",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "AZ-MAR",
+    "county": "Maricopa",
+    "state": "AZ",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "CO-DEN",
+    "county": "Denver",
+    "state": "CO",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "WA-KIN",
+    "county": "King",
+    "state": "WA",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "CA-LOS",
+    "county": "Los Angeles",
+    "state": "CA",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "OH-FRA",
+    "county": "Franklin",
+    "state": "OH",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "PA-PHI",
+    "county": "Philadelphia",
+    "state": "PA",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  },
+  {
+    "region_id": "TN-DAV",
+    "county": "Davidson",
+    "state": "TN",
+    "regime": "Non-Florida",
+    "approval_context": "Synthetic prototype region",
+    "assistant_behavior": "No Florida approval statement",
+    "notes": "Synthetic extension"
+  }
+]

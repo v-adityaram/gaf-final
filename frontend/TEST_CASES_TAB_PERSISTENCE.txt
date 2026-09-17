@@ -1,0 +1,88 @@
+TAB PERSISTENCE - MANUAL TEST CASES
+=====================================
+Covers the fix where switching tabs (Assistant / Smart Order / Warranty /
+Metrics) used to destroy the page you left, wiping any typed-but-unsent
+text and the whole conversation. Tabs now stay mounted and only
+show/hide, so all state should survive switching away and back.
+
+No automated frontend test runner is set up in this repo (frontend only
+has tsc + vite, no vitest/jest/playwright) -- these are manual checks to
+run by hand in the browser. Run `npm run dev` in frontend/ and open the
+app before going through these.
+=====================================
+
+TEST 1 - Assistant: unsent draft survives a tab switch
+  1. Go to the Assistant tab.
+  2. Type "I need 60 squares of Timberline HDZ" in the message box.
+     Do NOT press send.
+  3. Switch to Smart Order tab, then to Warranty tab.
+  4. Switch back to Assistant.
+  EXPECT: the message box still contains "I need 60 squares of
+  Timberline HDZ" exactly as typed.
+
+TEST 2 - Assistant: sent conversation survives a tab switch
+  1. On Assistant, send a couple of messages and let them get replies.
+  2. Note the chat log and the "Agent activity" timeline on the side panel.
+  3. Switch to Metrics, then to Smart Order, then back to Assistant.
+  EXPECT: every message bubble is still there in the same order, and the
+  side panel's timeline still shows the last response's steps. Nothing
+  reset to the empty-state placeholder.
+
+TEST 3 - Smart Order: unsent draft survives a tab switch
+  1. Go to Smart Order tab.
+  2. Type a partial order message, do not send.
+  3. Switch to Assistant, then back to Smart Order.
+  EXPECT: the draft text is still in the box.
+
+TEST 4 - Smart Order: order form state survives a tab switch
+  1. On Smart Order, send a message that resolves to a READY FOR HUMAN
+     REVIEW order (e.g. an existing demo customer + product).
+  2. Confirm the editable order form appears with fields filled in.
+  3. Switch to Warranty tab, then back to Smart Order.
+  EXPECT: the order form is still showing with the same field values,
+  the same Recheck/Confirm buttons, and confirming it now still works.
+
+TEST 5 - Warranty: draft and answered conversation survive a tab switch
+  1. Go to Warranty tab, ask a product/warranty question, let it answer.
+  2. Start typing a second question but do not send it.
+  3. Switch to Metrics, then back to Warranty.
+  EXPECT: the first Q&A is still in the chat log, the sources panel still
+  shows the cited document(s), and the half-typed second question is
+  still in the input box.
+
+TEST 6 - Metrics: filter selection survives a tab switch
+  1. Go to Metrics tab.
+  2. In Order History, click the "Blocked" filter chip.
+  3. Switch to Assistant, then back to Metrics.
+  EXPECT: "Blocked" is still the active filter chip (not reset to "All").
+
+TEST 7 - Metrics: data refreshes each time you revisit the tab
+  1. On Smart Order, confirm an order (Confirm Order succeeds).
+  2. Switch to Metrics tab.
+  EXPECT: the "Confirmed Orders" card count and the Order History table
+  reflect the order you just confirmed, without needing to click Refresh
+  manually (switching TO the tab triggers a fresh load).
+
+TEST 8 - Voice: leaving the Assistant tab stops an active call
+  1. Go to Assistant tab, click the mic icon, allow microphone access,
+     wait for the "Live" indicator.
+  2. Switch to Smart Order tab.
+  EXPECT: the voice call ends (check the browser's mic/tab indicator, or
+  switch back to Assistant and confirm it now shows the normal
+  text-composer bar, not "Live").
+  EXPECT ALSO: no error banner appears, and typing/sending text on
+  Assistant afterwards still works normally.
+
+TEST 9 - Rapid tab switching doesn't break anything
+  1. Click through Assistant -> Smart Order -> Warranty -> Metrics ->
+     Assistant several times in quick succession, including mid-request
+     (e.g. switch away while a message is still "Thinking...").
+  EXPECT: no crashes, no duplicated messages, no console errors. The
+  in-flight request's reply appears in the correct tab's chat log
+  whenever you return to it.
+
+TEST 10 - Photo/recap side features still work after switching
+  1. On Assistant, send a roof photo and let it analyze.
+  2. Draft a recap email (side panel), switch tabs, come back.
+  EXPECT: the photo analysis bubble and the drafted recap text are both
+  still present, unchanged.
