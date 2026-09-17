@@ -99,8 +99,8 @@ run it headlessly with `npx newman run postman/GAF_Sales_Assistant.postman_colle
 
 ## Hosting a live demo for free
 
-See [HOSTING.md](HOSTING.md) -- Render (backend) + Vercel (frontend), both deploy straight from
-this private repo and auto-redeploy on every push.
+See [HOSTING.md](HOSTING.md) -- Render (backend, either way) + GitHub Pages or Vercel (frontend).
+All auto-redeploy on every push once connected.
 
 ## Safety behaviours
 

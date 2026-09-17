@@ -1,13 +1,13 @@
-# Hosting this demo for free (Render + Vercel)
+# Hosting this demo for free
 
-The repo is **private**, so GitHub Pages' free tier won't work (it only serves public repos).
-Render and Vercel both deploy straight from a private repo instead and just give you a public
-URL for the running app — the source stays private either way.
+Two ways to host the **frontend**: GitHub Pages (needs the repo public) or Vercel (works with the
+repo staying private). Either way the **backend** needs Render -- both frontend options are
+static-only and can't run the FastAPI server.
 
-Both connect steps below are one-time, manual (need your GitHub OAuth login in a browser — not
-something that can be scripted), and take about 2 minutes each.
+Every step below is one-time and manual (needs your GitHub OAuth login in a browser -- not
+something that can be scripted), and takes about 2 minutes.
 
-## 1. Backend -> Render (`render.yaml` at the repo root)
+## 1. Backend -> Render (`render.yaml` at the repo root, needed either way)
 
 1. Go to **render.com** -> sign in with GitHub -> **New** -> **Blueprint**.
 2. Pick the `gaf-final` repo. Render reads `render.yaml` and proposes one service:
@@ -26,16 +26,36 @@ next request — normal for a demo, just means the first click after a break is 
 
 `GAF_DATA_SOURCE` is set to `local` in `render.yaml` -- the backend serves everything from the
 `data/*.json` files baked into the repo, no live Azure Function App needed (that Function App is
-currently down anyway; see the conversation history). Voice stays disabled unless you also fill in
-the `AZURE_OPENAI_*` env vars in Render's dashboard.
+currently down anyway). Voice stays disabled unless you also fill in the `AZURE_OPENAI_*` env
+vars in Render's dashboard.
 
-## 2. Frontend -> Vercel (`frontend/vercel.json`)
+## 2a. Frontend -> GitHub Pages -- once the repo is public
+
+`.github/workflows/deploy-pages.yml` is already in the repo and builds+deploys the frontend
+automatically on every push to `main` that touches `frontend/**`. You still need to:
+
+1. Make the repo public (Settings -> General -> Danger Zone -> Change visibility) -- GitHub
+   Pages' free tier only serves public repos.
+2. **Settings -> Pages -> Build and deployment -> Source: "GitHub Actions"** (one-time toggle;
+   can't be set from a workflow file).
+3. **Settings -> Secrets and variables -> Actions -> Variables tab** -> add a repository variable
+   `VITE_API_BASE_URL` = the Render URL from step 1 (e.g. `https://gaf-final-backend.onrender.com`).
+4. Push anything to `frontend/`, or go to the **Actions** tab -> "Deploy frontend to GitHub Pages"
+   -> **Run workflow** to trigger the first deploy without waiting for a push.
+5. Once it finishes (green check on the Actions run), the site is at:
+   **`https://v-adityaram.github.io/gaf-final/`**
+
+If you skip step 3, the site still deploys and loads, but every chat/order/warranty request
+fails in the browser console -- the page would be trying to reach `localhost:8001` on the
+*visitor's* own machine, not a real server. Set the variable, then re-run the workflow.
+
+## 2b. Frontend -> Vercel -- works with the repo staying private
 
 1. Go to **vercel.com** -> sign in with GitHub -> **Add New** -> **Project**.
 2. Import the `gaf-final` repo. When asked for **Root Directory**, set it to `frontend`.
    Vercel will pick up `frontend/vercel.json` and detect the Vite framework automatically.
 3. Add two **Environment Variables** (Project Settings -> Environment Variables) before deploying:
-   - `VITE_API_BASE_URL` = the Render URL from step 1 (e.g. `https://gaf-final-backend.onrender.com`)
+   - `VITE_API_BASE_URL` = the Render URL from step 1
    - `VITE_BASE_PATH` = `/` (without this the build assumes the `/gaf/` sub-path the original VM
      deploy used, and every asset 404s on a standalone domain)
 4. Deploy. Vercel gives you a URL like `https://gaf-final.vercel.app` -- that's the live demo link.
@@ -44,19 +64,21 @@ the `AZURE_OPENAI_*` env vars in Render's dashboard.
 
 Back in Render's dashboard, open `gaf-final-backend` -> **Environment** -> set:
 ```
-CORS_EXTRA_ORIGINS=https://gaf-final.vercel.app
+CORS_EXTRA_ORIGINS=https://v-adityaram.github.io,https://gaf-final.vercel.app
 ```
-(comma-separate if Vercel also gives you a preview-deployment domain you want to test from).
-Save -> Render redeploys automatically. Without this step the frontend loads but every API call
-fails with a CORS error in the browser console.
+(use whichever origin(s) you actually deployed to; comma-separate if using both, or add a Vercel
+preview-deployment domain too). Save -> Render redeploys automatically. Without this step the
+frontend loads but every API call fails with a CORS error in the browser console.
 
 ## 4. Verify
 
-Open the Vercel URL. The Assistant tab should load, the header/sidebar should render, and sending
-a message should get a real response (confirms both services + CORS are wired correctly). If a
-request hangs for 30-50s the first time, that's Render's free-tier cold start, not a bug.
+Open the frontend URL. The Assistant tab should load, the header/sidebar should render, and
+sending a message should get a real response (confirms both services + CORS are wired
+correctly). If a request hangs for 30-50s the first time, that's Render's free-tier cold start,
+not a bug.
 
 ## Redeploying after future changes
 
-Both Render and Vercel auto-redeploy on every `git push` to `main` once connected — no extra
-steps needed for future updates, just push.
+Render and Vercel both auto-redeploy on every `git push` to `main`. GitHub Pages redeploys on
+every push that touches `frontend/**`, or via the manual "Run workflow" button. No extra steps
+needed for future updates either way -- just push.

@@ -1,0 +1,66 @@
+name: Deploy frontend to GitHub Pages
+
+# One-time setup this workflow needs (repo owner only, can't be done from
+# a workflow file): Settings -> Pages -> Build and deployment -> Source:
+# "GitHub Actions". The repo must also be public for the Pages *site*
+# itself to be reachable on the free plan (GitHub Pages private-repo
+# publishing needs a paid plan).
+#
+# This deploys ONLY the static frontend. The backend still needs to be
+# hosted separately (see HOSTING.md / render.yaml) -- set the
+# VITE_API_BASE_URL repository variable (Settings -> Secrets and
+# variables -> Actions -> Variables) to that backend's URL once it
+# exists, then re-run this workflow. Until then the deployed site loads
+# but every API call fails, since it has nothing real to call.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "frontend/**"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+        working-directory: frontend
+      - run: npm run build
+        working-directory: frontend
+        env:
+          # Project-site Pages URLs are https://<owner>.github.io/<repo>/ --
+          # asset paths must be rewritten to that /<repo>/ prefix or every
+          # asset 404s. ${{ github.event.repository.name }} keeps this
+          # correct even if the repo is ever renamed.
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
