@@ -33,28 +33,38 @@ concurrency:
 
 jobs:
   build:
+    # TAKEDOWN: this job no longer builds/publishes the real frontend -- it
+    # publishes deploy/takedown-page/ instead, so the public demo is gone
+    # from https://<owner>.github.io/<repo>/ (and any custom domain pointed
+    # at it) without needing GitHub Settings access. The original build
+    # steps are preserved below, commented out, so this is a one-commit
+    # revert away from being live again if that's ever wanted.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
-          cache-dependency-path: frontend/package-lock.json
-      - run: npm ci
-        working-directory: frontend
-      - run: npm run build
-        working-directory: frontend
-        env:
-          # Project-site Pages URLs are https://<owner>.github.io/<repo>/ --
-          # asset paths must be rewritten to that /<repo>/ prefix or every
-          # asset 404s. ${{ github.event.repository.name }} keeps this
-          # correct even if the repo is ever renamed.
-          VITE_BASE_PATH: /${{ github.event.repository.name }}/
-          VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL }}
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: frontend/dist
+          path: deploy/takedown-page
+      # --- original build, restore by uncommenting and removing the step above ---
+      # - uses: actions/setup-node@v4
+      #   with:
+      #     node-version: "20"
+      #     cache: "npm"
+      #     cache-dependency-path: frontend/package-lock.json
+      # - run: npm ci
+      #   working-directory: frontend
+      # - run: npm run build
+      #   working-directory: frontend
+      #   env:
+      #     # Project-site Pages URLs are https://<owner>.github.io/<repo>/ --
+      #     # asset paths must be rewritten to that /<repo>/ prefix or every
+      #     # asset 404s. ${{ github.event.repository.name }} keeps this
+      #     # correct even if the repo is ever renamed.
+      #     VITE_BASE_PATH: /${{ github.event.repository.name }}/
+      #     VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL }}
+      # - uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: frontend/dist
 
   deploy:
     needs: build
